@@ -7,4 +7,10 @@
 
 
  2. Long Method 
-- 
+- Na classe Account.java varios metodos possuem muitos if e else, e alguns metodos lidam com muita coisa.
+
+3. Large Class
+- Classe Account.java está lidando com muitas coisas de classes diferentes se tornando mais complexo de entender. 
+
+4. Feature Envy
+- Na classe Account.java, os metodos pedidosAmizade, printarAmigos possuem utilizam muitos atributos/metodos de uma classe diferente.
